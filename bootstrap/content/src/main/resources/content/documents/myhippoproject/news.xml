@@ -115,13 +115,13 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-07-20T23:58:01.957-04:00</sv:value>
+            <sv:value>2016-07-21T00:26:29.374-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-07-20T23:58:15.837-04:00</sv:value>
+            <sv:value>2016-07-21T00:26:31.528-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>75234bab-9335-4d43-92a1-18ed8bc80d78</sv:value>
@@ -161,6 +161,8 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
 
+&lt;p&gt;&lt;img src="goodnews-future-bees.jpeg/{_document}/myhippoproject:featured" /&gt;&lt;/p&gt;
+
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
             <sv:node sv:name="2013-harvest">
@@ -169,6 +171,17 @@
               </sv:property>
               <sv:property sv:name="hippo:docbase" sv:type="String">
                 <sv:value>30092f4e-2ef7-4c72-86a5-8ce895908937</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="goodnews-future-bees.jpeg">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>73baa3b4-2e0d-4946-b01b-a46b737e09b6</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
               <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -215,7 +228,7 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-07-20T23:55:31.489-04:00</sv:value>
+            <sv:value>2016-07-21T00:26:15.943-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -258,6 +271,8 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
 
+&lt;p&gt;&lt;img src="goodnews-future-bees.jpeg/{_document}/myhippoproject:featured" /&gt;&lt;/p&gt;
+
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
             <sv:node sv:name="2013-harvest">
@@ -266,6 +281,17 @@
               </sv:property>
               <sv:property sv:name="hippo:docbase" sv:type="String">
                 <sv:value>30092f4e-2ef7-4c72-86a5-8ce895908937</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="goodnews-future-bees.jpeg">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>73baa3b4-2e0d-4946-b01b-a46b737e09b6</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
               <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -314,7 +340,7 @@
             <sv:value>2013-11-12T13:03:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-07-20T23:58:01.957-04:00</sv:value>
+            <sv:value>2016-07-21T00:26:29.374-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -357,6 +383,8 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
 
+&lt;p&gt;&lt;img src="goodnews-future-bees.jpeg/{_document}/myhippoproject:featured" /&gt;&lt;/p&gt;
+
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
             <sv:node sv:name="2013-harvest">
@@ -365,6 +393,17 @@
               </sv:property>
               <sv:property sv:name="hippo:docbase" sv:type="String">
                 <sv:value>30092f4e-2ef7-4c72-86a5-8ce895908937</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="goodnews-future-bees.jpeg">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>73baa3b4-2e0d-4946-b01b-a46b737e09b6</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
               <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>

@@ -1,4 +1,5 @@
 <'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
@@ -11,6 +12,9 @@
   orderable
 
 [myhippoproject:contentdocument] > hippostd:relaxed, hippotranslation:translated, myhippoproject:basedocument
+  orderable
+
+[myhippoproject:gogreenimageset] > hippogallery:imageset, hippogallery:relaxed
   orderable
 
 [myhippoproject:newsdocument] > hippostd:relaxed, hippotranslation:translated, myhippoproject:basedocument
