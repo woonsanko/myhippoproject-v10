@@ -12,11 +12,9 @@
         <#-- TODO replace the static title, introduction and content with dynamic markers -->
 
         <div class="col-md-9 col-sm-9">
-          <h2>Lorem Ipsum (Static Text)</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
+          <h2>${document.title?html}</h2>
+          <p>${document.introduction?html}</p>
+          <@hst.html hippohtml=document.content />
         </div>
       <#elseif editMode>
         <img src="<@hst.link path="/images/essentials/catalog-component-icons/simple-content.png" />"> Click to edit Simple Content
