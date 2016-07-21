@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "@type": "plugin",
+      "id": "trainingWebDevelopmentPlugin",
+      "name": "Training: 2 - Web Development Module",
+      "icon": "http://www.onehippo.org/binaries/content/gallery/training/training-feature.png",
+      "introduction": "Trainees of the Module \"Web Development\" will install this feature. Example artifacts are installed in the project that are necessary to do the exercises.",
+      "packageFile": "/META-INF/training_web_development_instructions.xml",
+      "parameterServiceClass": "org.onehippo.cms7.training.essentials.webdevelopment.WebdevelopmentParameterService",
+      "restClasses": [],
+      "type": "feature",
+      "vendor": {
+        "@type": "vendor",
+        "name": "Hippo",
+        "url": "http://www.onehippo.com"
+      },
+      "libraries": [
+        {
+          "items": []
+        }
+      ],
+      "dependencies": [
+        {
+          "@type": "dependency",
+          "groupId": "org.onehippo.cms7.training.essentials",
+          "artifactId": "webdevelopment-feature",
+          "scope": "compile",
+          "targetPom": "essentials",
+          "version": "2.0.7"
+        }
+      ]
+    },
+    {
+      "@type": "plugin",
+      "id": "trainingNewContentSectionPlugin",
+      "name": "Training: 4 - Add a new Content Section Module",
+      "icon": "http://www.onehippo.org/binaries/content/gallery/training/training-feature.png",
+      "introduction": "Trainees of the Module \"Add a new Content Section\" will install this feature during the training.",
+      "packageFile": "/META-INF/training_new_content_section_instructions.xml",
+      "parameterServiceClass": "org.onehippo.cms7.training.essentials.addNewContentFeature.NewContentSectionParameterService",
+      "restClasses": [],
+      "type": "feature",
+      "vendor": {
+        "@type": "vendor",
+        "name": "Hippo",
+        "url": "http://www.onehippo.com"
+      },
+      "libraries": [
+        {
+          "items": []
+        }
+      ],
+      "dependencies": [
+        {
+          "@type": "dependency",
+          "groupId": "org.onehippo.cms7.training.essentials",
+          "artifactId": "new-content-section-feature",
+          "scope": "compile",
+          "targetPom": "essentials",
+          "version": "2.0.7"
+        }
+      ]
+    },
+    {
+      "@type": "plugin",
+      "id": "trainingHstJavaComponentsPlugin",
+      "name": "Training: 5 - HST Java Components Module",
+      "icon": "http://www.onehippo.org/binaries/content/gallery/training/training-feature.png",
+      "introduction": "Trainees of the Module \"HST Java Components\" will install this feature. Example content and artifacts are installed in the project that are necessary to do the exercises.",
+      "packageFile": "/META-INF/training_hst_java_components_instructions.xml",
+      "parameterServiceClass": "org.onehippo.cms7.training.essentials.hstJavaComponentsFeature.HstJavaComponentsParameterService",
+      "restClasses": [],
+      "type": "feature",
+      "vendor": {
+        "@type": "vendor",
+        "name": "Hippo",
+        "url": "http://www.onehippo.com"
+      },
+      "libraries": [
+        {
+          "items": []
+        }
+      ],
+      "dependencies": [
+        {
+          "@type": "dependency",
+          "groupId": "org.onehippo.cms7.training.essentials",
+          "artifactId": "hst-javacomponents-feature",
+          "scope": "compile",
+          "targetPom": "essentials",
+          "version": "2.0.7"
+        }
+      ]
+    },
+    {
+      "@type": "plugin",
+      "id": "trainingNewChannelContentPlugin",
+      "name": "Training: 6 - Add a new Channel Module",
+      "icon": "http://www.onehippo.org/binaries/content/gallery/training/training-feature.png",
+      "introduction": "Trainees of the Module \"Develop Standard Features\" will install this feature during the training.",
+      "packageFile": "/META-INF/training_new_channel_content_instructions.xml",
+      "parameterServiceClass": "org.onehippo.cms7.training.essentials.newchannelcontent.NewChannelContentParameterService",
+      "restClasses": [],
+      "type": "feature",
+      "vendor": {
+        "@type": "vendor",
+        "name": "Hippo",
+        "url": "http://www.onehippo.com"
+      },
+      "libraries": [
+        {
+          "items": []
+        }
+      ],
+      "dependencies": [
+        {
+          "@type": "dependency",
+          "groupId": "org.onehippo.cms7.training.essentials",
+          "artifactId": "new-channel-content-feature",
+          "scope": "compile",
+          "targetPom": "essentials",
+          "version": "2.0.7"
+        }
+      ]
+    }
+  ]
+}

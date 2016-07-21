@@ -15,4 +15,7 @@
     <templateLanguage>freemarker</templateLanguage>
     <useSamples>true</useSamples>
     <webfilesSubModule>webfiles</webfilesSubModule>
+
+    <pluginRepositories>http://www.onehippo.org/binaries/content/assets/training/training_features_descriptor_2.0.7.json</pluginRepositories>
+
 </project>
