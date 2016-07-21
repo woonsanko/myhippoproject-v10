@@ -6,7 +6,13 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-  <title>Hippo Go Green - Home</title>
+
+  <#if hstRequestContext.resolvedSiteMapItem.pageTitle??>
+    <title>${hstRequestContext.resolvedSiteMapItem.pageTitle}</title>
+  <#else>
+    <title>Hippo Go Green - Home</title>
+  </#if>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

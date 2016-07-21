@@ -1,6 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="hst:sitemap" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sitemap">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:sitemap</sv:value>
   </sv:property>
+  <sv:node sv:name="whose-plant-is-greener">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/who-joins-go-green-landingpage</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-07-21T15:39:49.102-04:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:pagetitle" sv:type="String">
+      <sv:value>Whose plant is greener?</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
