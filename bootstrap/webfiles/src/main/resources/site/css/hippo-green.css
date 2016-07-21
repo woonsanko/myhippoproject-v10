@@ -151,5 +151,7 @@ body .section-content.section-image {
   border-color: #89bf84;
 }
 
-
+.edit-menu-button .hst-cmseditmenu {
+  top: 24px;
+}
 

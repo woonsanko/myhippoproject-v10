@@ -6,6 +6,9 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:sitemenu</sv:value>
     </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-07-20T23:13:52.408-04:00</sv:value>
+    </sv:property>
     <sv:node sv:name="home">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
@@ -20,14 +23,6 @@
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
         <sv:value>news</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="content">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenuitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>content</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
