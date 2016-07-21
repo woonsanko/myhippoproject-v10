@@ -24,7 +24,7 @@
 
   <link rel="icon" href="<@hst.webfile path='/images/favicon.ico'/>" type="image/x-icon" />
 
-  <@hst.headContributions xhtml=true />
+  <@hst.headContributions xhtml=true categoryExcludes="htmlBodyEnd" />
 
 </head>
 <body class="bgpattern-neutral">
@@ -130,6 +130,8 @@
   <@hst.include ref="footer" />
 
 </div>
+
+<@hst.headContributions xhtml=true categoryIncludes="htmlBodyEnd" />
 
 </body>
 </html>
